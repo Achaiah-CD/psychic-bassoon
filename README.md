@@ -3,9 +3,9 @@
 
 One player and one dealer play out a set of blackjack games.  
 
-> Each number card has its number as value.  
+> **Each number card has its number as value.  
 > Ace can be either 11 or 1.  
-> Al face cards have value 10.  
+> All face cards have value 10.**  
 
 You bust when you hit 22 or more.  
 Dealer must deal(hit) himself till his card value is atleast 17 after which he can stop(stand).  
