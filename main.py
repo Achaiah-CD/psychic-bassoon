@@ -2,7 +2,7 @@
 import random
 
 
-# A class for each card to be specifically fixed with suit and rank/value
+# A class for each card to be specifically fixed with suit and rank/value.
 class Card:
 
 	def __init__(self, suit, rank):
@@ -20,7 +20,7 @@ class Deck:
 
 	def __init__(self):
 
-		#cards is gonna hold the suits and a dictionary of rank and value
+		# Cards is going to hold the suits and a dictionary of rank and value
 		self.cards = []
 		suits = ["spades", "clubs", "diamonds", "hearts"]
 		ranks = [{
@@ -64,7 +64,7 @@ class Deck:
 		 "value": 10
 		}]
 		for suit in suits:
-			for rank in ranks:  #Call Card class to fix value for each card.
+			for rank in ranks:  # Call Card class to fix value for each card.
 				self.cards.append(Card(suit, rank))
 
 	# Method to shuffle the deck as long as there are more than one card.

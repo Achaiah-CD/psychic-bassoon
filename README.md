@@ -17,5 +17,5 @@ The dealer's initial drawn card is hidden from the player, only the second deal 
 ### To update
 - Keep count of games won and lost.  
 - Keep track of highest streak.  
-* Maybe add the feature of betting money.  
-* Cleaner code by adding wrappers and decorators.  
+- Maybe add the feature of betting money.  
+- Cleaner code by adding wrappers and decorators.  
